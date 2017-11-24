@@ -11,4 +11,8 @@ class BootstrapJuiAutoCompleteAsset extends \yii\web\AssetBundle
         'bootstrap-jui-autocomplete.css'
     ];
 
+    public $depends = [
+        'yii\jui\JuiAsset'
+    ];
+
 }

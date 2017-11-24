@@ -7,5 +7,9 @@
 			"src/BootstrapJuiAutoComplete.php",
 			"src/BootstrapJuiAutoCompleteAsset.php"
 		]
-	}
+	},
+    "require": {
+        "yiisoft/yii2": ">=2.0.4",
+        "yiisoft/yii2-jui": "~2.0.0"
+    }
 }
