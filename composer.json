@@ -1,4 +1,5 @@
 {
+    "name": "denis909/yii2-bootstrap-jui-autocomplete",
 	"autoload": {
 		"classmap": [
 			"src/BootstrapJuiAutocomplete.php",
