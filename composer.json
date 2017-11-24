@@ -1,8 +1,8 @@
 {
 	"autoload": {
-		"classmap": {
+		"classmap": [
 			"src/BootstrapJuiAutocomplete.php",
 			"src/BootstrapJuiAutocompleteAsset.php"
-		}
+		]
 	}
 }
