@@ -1,6 +1,7 @@
 {
     "name": "denis909/yii2-bootstrap-jui-autocomplete",
     "keywords": ["yii2", "jui", "autocomplete", "typeahead"],
+    "license": "BSD-3-Clause",
 	"autoload": {
 		"classmap": [
 			"src/BootstrapJuiAutocomplete.php",
