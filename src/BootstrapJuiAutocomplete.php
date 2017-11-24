@@ -36,7 +36,7 @@ class BootstrapJuiAutoComplete extends \yii\jui\AutoComplete
 
 	public static function registerAssets($view)
 	{
-		BootstrapJuiAutocompleteAsset::register($view);
+		BootstrapJuiAutoCompleteAsset::register($view);
 	}
 
 }
