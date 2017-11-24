@@ -2,7 +2,7 @@
 
 namespace denis909\yii;
 
-class BootstrapJuiAutocomplete extends \yii\jui\AutoComplete
+class BootstrapJuiAutoComplete extends \yii\jui\AutoComplete
 {
 
 	public $registerAssets = TRUE;
@@ -14,9 +14,9 @@ class BootstrapJuiAutocomplete extends \yii\jui\AutoComplete
 
 	public function run()
 	{
-		if ($this->resultsId)
+		if (!empty($this->resultsOptions['id']))
 		{
-			$this->clientOptions['appendTo'] = '#' . $this->resultsId;
+			$this->clientOptions['appendTo'] = '#' . $this->resultsOptions['id'];
 		}
 
 		if ($this->registerAssets)

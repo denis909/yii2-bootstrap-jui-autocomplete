@@ -4,8 +4,8 @@
     "license": "BSD-3-Clause",
 	"autoload": {
 		"classmap": [
-			"src/BootstrapJuiAutocomplete.php",
-			"src/BootstrapJuiAutocompleteAsset.php"
+			"src/BootstrapJuiAutoComplete.php",
+			"src/BootstrapJuiAutoCompleteAsset.php"
 		]
 	}
 }
