@@ -28,7 +28,7 @@ class BootstrapJuiAutoComplete extends \yii\jui\AutoComplete
 
 		if ($this->resultsOptions)
 		{
-			$return .= "\n" . \yii\helpers\Tag('div', null, $this->resultsOptions);
+			$return .= "\n" . \yii\helpers\Html::tag('div', null, $this->resultsOptions);
 		}
 
 		return $return;
