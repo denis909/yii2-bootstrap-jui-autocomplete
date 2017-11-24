@@ -1,5 +1,6 @@
 {
     "name": "denis909/yii2-bootstrap-jui-autocomplete",
+    "keywords": ["yii2", "jui", "autocomplete", "typeahead"],
 	"autoload": {
 		"classmap": [
 			"src/BootstrapJuiAutocomplete.php",
